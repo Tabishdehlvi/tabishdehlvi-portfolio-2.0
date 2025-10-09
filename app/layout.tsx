@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of a Full Stack MERN Developer with 2 years experience building complex applications like HRMS, LMS, and Multi-Vendor Marketplace",
   icons: {
-    icon: "/favicon.png", // 👈 or /favicon.ico
+    icon: "/favicon.png",
   },
 };
 
