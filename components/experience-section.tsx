@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useEffect, useRef } from "react"
-import gsap from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
@@ -23,14 +23,14 @@ const experiences = [
     description:
       "Developed responsive web applications using React and modern frontend technologies. Collaborated with design and backend teams to deliver pixel-perfect user interfaces.",
   },
-]
+];
 
-export function UniqueExperience() {
-  const sectionRef = useRef<HTMLElement>(null)
+export function ExperienceSection() {
+  const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     if (sectionRef.current) {
-      const items = sectionRef.current.querySelectorAll(".experience-item")
+      const items = sectionRef.current.querySelectorAll(".experience-item");
 
       items.forEach((item) => {
         gsap.fromTo(
@@ -47,11 +47,11 @@ export function UniqueExperience() {
               end: "top 50%",
               scrub: 1,
             },
-          },
-        )
-      })
+          }
+        );
+      });
     }
-  }, [])
+  }, []);
 
   return (
     <section
@@ -61,8 +61,12 @@ export function UniqueExperience() {
     >
       <div className="max-w-7xl w-full">
         <div className="mb-16">
-          <span className="text-sm font-mono text-primary">03 — Experience</span>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mt-4">Work History</h2>
+          <span className="text-sm font-mono text-primary">
+            03 — Experience
+          </span>
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mt-4">
+            Work History
+          </h2>
         </div>
 
         <div className="space-y-24">
@@ -76,16 +80,22 @@ export function UniqueExperience() {
                   <div>
                     <h3 className="text-3xl font-bold mb-2">{exp.role}</h3>
                     <p className="text-xl text-accent">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground mt-1">{exp.location}</p>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      {exp.location}
+                    </p>
                   </div>
-                  <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">{exp.description}</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
+                    {exp.description}
+                  </p>
                 </div>
               </div>
-              {index < experiences.length - 1 && <div className="mt-12 h-px bg-border" />}
+              {index < experiences.length - 1 && (
+                <div className="mt-12 h-px bg-border" />
+              )}
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

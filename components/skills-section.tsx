@@ -48,7 +48,7 @@ const skillCategories = [
   },
 ];
 
-export function UniqueSkills() {
+export function SkillsSection() {
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {

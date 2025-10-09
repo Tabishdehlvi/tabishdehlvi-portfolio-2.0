@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export function UniqueAbout() {
+export function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {

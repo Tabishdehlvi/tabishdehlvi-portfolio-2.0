@@ -6,7 +6,7 @@ import gsap from "gsap";
 import { Download } from "lucide-react";
 import Image from "next/image";
 
-export function UniqueHero() {
+export function HeroSection() {
   const nameRef = useRef<HTMLHeadingElement>(null);
   const titleRef = useRef<HTMLParagraphElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
