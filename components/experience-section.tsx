@@ -8,16 +8,24 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
-    period: "2023 — Present",
-    role: "MERN Stack Developer & Team Lead",
+    period: "2024 — Present",
+    role: "Lead Full Stack Developer",
     company: "Collabez",
     location: "Karachi, Pakistan",
     description:
       "Leading a cross-functional development team in designing and delivering enterprise-scale full-stack applications. Architecting microservices-based solutions and implementing real-time features using WebSockets. Successfully deployed HRMS, LMS, and e-commerce platforms serving 1000+ concurrent users. Mentored junior developers and established best practices for code quality and performance optimization.",
   },
   {
+    period: "2023 — 2024",
+    role: "MERN Stack Developer",
+    company: "Collabez",
+    location: "Karachi, Pakistan",
+    description:
+      "Developed and deployed full-stack applications using MongoDB, Express.js, React, and Node.js. Implemented real-time features including Socket.io integration for chat functionality and WebRTC implementations. Contributed to multiple production applications including HRMS and LMS platforms. Optimized database queries and implemented caching strategies, improving application performance by 35%.",
+  },
+  {
     period: "2022 — 2023",
-    role: "Frontend Developer Intern",
+    role: "Frontend Developer",
     company: "Indus Valley Tech",
     location: "Karachi, Pakistan",
     description:

@@ -8,8 +8,26 @@ import { ExternalLink, Github } from "lucide-react";
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
-  {
+    {
     number: "01",
+    title: "Diabmart",
+    subtitle: "E-Commerce Marketplace",
+    description:
+      "Engineered a scalable multi-vendor marketplace handling 50+ vendors and 10,000+ products. Architected using microservices with Nest.js backend, PostgreSQL for relational data, and Redis caching for performance. Implemented secure payment processing via Stripe, inventory synchronization, vendor analytics dashboard, and order fulfillment workflows. Platform supports 5000+ concurrent users with sub-second response times.",
+    tags: [
+      "Next.js",
+      "Nest.js",
+      "PostgreSQL",
+      "Medusa.js",
+      "Stripe",
+      "Digital Ocean",
+      "Redis",
+    ],
+    link: "https://diabmart.ae",
+    github: "",
+  },
+  {
+    number: "02",
     title: "CollabDash",
     subtitle: "Enterprise HRMS Platform",
     description:
@@ -27,7 +45,7 @@ const projects = [
     github: "",
   },
   {
-    number: "02",
+    number: "03",
     title: "Tuition Highway",
     subtitle: "Learning Management System",
     description:
@@ -43,25 +61,7 @@ const projects = [
     ],
     link: "https://portal.tuitionhighway.com",
     github: "",
-  },
-  {
-    number: "03",
-    title: "Diabmart",
-    subtitle: "E-Commerce Marketplace",
-    description:
-      "Engineered a scalable multi-vendor marketplace handling 50+ vendors and 10,000+ products. Architected using microservices with Nest.js backend, PostgreSQL for relational data, and Redis caching for performance. Implemented secure payment processing via Stripe, inventory synchronization, vendor analytics dashboard, and order fulfillment workflows. Platform supports 5000+ concurrent users with sub-second response times.",
-    tags: [
-      "Next.js",
-      "Nest.js",
-      "PostgreSQL",
-      "Medusa.js",
-      "Stripe",
-      "Digital Ocean",
-      "Redis",
-    ],
-    link: "https://diabmart.ae",
-    github: "",
-  },
+  }
 ];
 
 export function ProjectsSection() {
