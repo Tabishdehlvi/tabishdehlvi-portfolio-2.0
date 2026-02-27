@@ -53,14 +53,10 @@ export function AboutSection() {
 
             <div className="animate-in space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I'm a Full Stack MERN Developer with 2 years of experience
-                building complex, production-ready applications that solve real
-                business problems.
+                I'm a Full Stack MERN Developer with 2+ years of hands-on experience delivering production-grade applications across diverse industries. I specialize in designing and implementing scalable systems that drive measurable business impact.
               </p>
               <p>
-                My expertise lies in creating comprehensive systems like HRMS,
-                LMS, and Multi-Vendor Marketplaces with features ranging from
-                real-time chat to video conferencing integration.
+                My expertise spans end-to-end development of mission-critical platforms including HR Management Systems, Learning Management Systems, and multi-vendor e-commerce ecosystems. I excel at integrating complex features like real-time communication, video conferencing, and advanced workflows into cohesive, user-centric applications.
               </p>
             </div>
           </div>

@@ -13,15 +13,15 @@ const experiences = [
     company: "Collabez",
     location: "Karachi, Pakistan",
     description:
-      "Leading a team of developers in building complex full-stack applications using MongoDB, Express.js, React, and Node.js. Architecting scalable solutions for HRMS, LMS, and e-commerce platforms with real-time features and microservices architecture.",
+      "Leading a cross-functional development team in designing and delivering enterprise-scale full-stack applications. Architecting microservices-based solutions and implementing real-time features using WebSockets. Successfully deployed HRMS, LMS, and e-commerce platforms serving 1000+ concurrent users. Mentored junior developers and established best practices for code quality and performance optimization.",
   },
   {
     period: "2022 — 2023",
-    role: "Front End Developer Intern",
+    role: "Frontend Developer Intern",
     company: "Indus Valley Tech",
     location: "Karachi, Pakistan",
     description:
-      "Developed responsive web applications using React and modern frontend technologies. Collaborated with design and backend teams to deliver pixel-perfect user interfaces.",
+      "Built responsive, pixel-perfect web applications using React and modern frontend technologies. Collaborated closely with product and design teams to translate Figma designs into performant components. Implemented state management solutions using Redux and optimized rendering performance, achieving 95+ Lighthouse scores.",
   },
 ];
 

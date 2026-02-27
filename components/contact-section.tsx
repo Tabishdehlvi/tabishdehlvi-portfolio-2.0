@@ -89,9 +89,7 @@ export function ContactSection() {
           {/* Left Info Section */}
           <div className="space-y-8">
             <p className="text-xl text-muted-foreground leading-relaxed contact-item">
-              I'm currently available for freelance work and full-time
-              opportunities. If you have a project in mind or just want to chat
-              about technology, feel free to reach out.
+              I'm open to exciting opportunities for full-time roles, freelance projects, and consulting engagements. Whether you need a dedicated developer for your enterprise platform or want to discuss sophisticated technical solutions, I'd love to connect and explore how I can contribute to your success.
             </p>
 
             <div className="space-y-6">

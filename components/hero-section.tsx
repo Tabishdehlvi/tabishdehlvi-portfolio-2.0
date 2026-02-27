@@ -98,8 +98,7 @@ export function HeroSection() {
               ref={titleRef}
               className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-muted-foreground italic leading-relaxed"
             >
-              Full Stack MERN Developer crafting complex applications. Building
-              polished software and web experiences with attention to detail.
+              Architecting scalable full-stack solutions that transform business challenges into competitive advantages. Specialized in building enterprise-grade MERN applications with real-time capabilities.
             </p>
 
             <motion.div

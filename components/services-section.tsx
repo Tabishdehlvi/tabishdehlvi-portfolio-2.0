@@ -21,49 +21,49 @@ const services = [
     icon: Code2,
     title: "Full Stack Development",
     description:
-      "End-to-end MERN stack applications with modern architecture and best practices.",
+      "End-to-end MERN stack solutions with scalable architecture, TypeScript for type safety, and production-ready deployment pipelines.",
   },
   {
     icon: Database,
     title: "HRMS Development",
     description:
-      "Complete HR management systems with attendance, leaves, and employee management.",
+      "Enterprise HR systems with attendance automation, leave workflows, performance tracking, and role-based dashboards.",
   },
   {
     icon: Layers,
     title: "LMS Platforms",
     description:
-      "Learning management systems with live classrooms, assignments, and progress tracking.",
+      "Feature-rich learning platforms with live classrooms, progress analytics, assignment management, and instructor tools.",
   },
   {
     icon: ShoppingCart,
     title: "E-Commerce Solutions",
     description:
-      "Multi-vendor marketplaces with payment integration and inventory management.",
+      "Scalable multi-vendor marketplaces with secure payments, inventory sync, order management, and vendor analytics.",
   },
   {
     icon: MessageSquare,
-    title: "Real-time Chat",
+    title: "Real-time Communication",
     description:
-      "WebSocket-based chat applications with real-time messaging and notifications.",
+      "WebSocket-based messaging systems with typing indicators, presence tracking, and persistence for conversations.",
   },
   {
     icon: Video,
-    title: "Video Conferencing",
+    title: "Video Integration",
     description:
-      "Integrated video meeting solutions using Jitsi and WebRTC technologies.",
+      "Seamless integration of Jitsi and WebRTC for live sessions, screen sharing, and recording capabilities.",
   },
   {
     icon: Zap,
-    title: "API Development",
+    title: "API Architecture",
     description:
-      "RESTful APIs with authentication, authorization, and comprehensive documentation.",
+      "RESTful and GraphQL APIs with OAuth2 authentication, rate limiting, comprehensive documentation, and versioning.",
   },
   {
     icon: TrendingUp,
-    title: "Performance Optimization",
+    title: "Performance & Optimization",
     description:
-      "Code optimization, caching strategies, and performance monitoring implementation.",
+      "Database indexing, caching strategies with Redis, CDN optimization, and monitoring for 99.8%+ uptime.",
   },
 ];
 

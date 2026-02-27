@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { ContactEmailTemplate } from "@/lib/email-template";
 
 export async function POST(req: Request) {
   try {
@@ -20,16 +21,11 @@ export async function POST(req: Request) {
 
     // 📧 email content
     const mailOptions = {
-      from: email,
+      from: `Portfolio Contact Form <${process.env.SMTP_USER}>`,
+      replyTo: email,
       to: "tabishdehlvi3@gmail.com",
-      subject: `New message from ${name}`,
-      html: `
-        <h3>New Contact Form Submission</h3>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message}</p>
-      `,
+      subject: `New Portfolio Inquiry from ${name}`,
+      html: ContactEmailTemplate(name, email, message),
     };
 
     // 🚀 send email
